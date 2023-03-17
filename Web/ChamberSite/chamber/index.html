@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" This website is the Montevideo Chamber of Commerce">
+    <title>Chamber Of Commerce - Home Page</title>
+    <meta name="author" content="Pablo Santos">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css" type="text/css">
+    <link rel="stylesheet" href="../chamber/styles/larger.css" type="text/css">
+    <link rel="icon" href="../favicon.ico">
+    <meta property="og:title" content="Portal WDD 230">
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://www.descubrimontevideo.uy/sites/default/files/styles/escala_y_recorte_1600x750/public/2022-09/Letras-de-Montevideo.jpg?itok=mBvt0QPz">
+    <meta property="og:url" content="https://pangloss1107.github.io/wdd230/">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+    <div class="ocultar"><div class="visits">Number of visits: <span id="visits"></span></div></div>
+    <header>
+        
+        <nav>
+            <div class="logo">
+                <img src="../chamber/iamges/chamber-logo-removebg-preview.png" alt="Chamber Logo">
+            </div>
+            <div class="hmbbutton">
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            </div>
+            <div>
+                <ul id="navigationLinks">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </div>
+
+            <div class="social-header">
+
+                <a href="https://www.facebook.com/"><img src="iamges//facebook_icon-icons.com_66092.png" alt="facebook icon"></a>
+                <a href="https://www.linkedin.com/in/pablo-santos-511101167/"><img src="iamges/linkedin_icon-icons.com_65929.png" alt="linkedin icon"></a>
+                <a href="https://www.instagram.com/"><img src="iamges/instagram_logo_icon_186894.png" alt="instagram icon"></a>
+
+            </div>
+        </nav>
+
+        <div class="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="iamges/montevideo.webp" alt="Image of Montevideo">
+            <div ><a href="join.html" class="call-action" ;>Join the Chamber</a></div>
+        </div>
+
+        <div id="mode" ><span class="material-symbols-outlined">🌙</span></div>
+
+        <div class="home-title"><h1>Montevideo Chamber of Commerce</h1></div>
+   
+        <section class="weather">
+            <h2>Weathwer</h2>
+                <figure>
+                    <div class="flexboxweather">
+                        <span id="weather-icon"></span> 
+                        <h2><span id="current-temp"></span> &deg;C</h2>
+                    </div>
+                    <figcaption></figcaption>
+                </figure>
+                <div class="windsection">
+                    <p><strong>Wind Speed: <span class="windspeed"></span></strong> </p>
+                    
+                    
+                </div>
+                <div class="three-days-weather">
+                    <h3>Weather for the next 3 days</h3>
+                    <div class="forecasting"></div>
+                </div>
+        </section>
+
+        <div class="grid-section">
+            <section class="events">
+                <h2>Events</h2>
+                <h3>Car Lovers</h3>
+                <p>Annual meeting of car lovers. Here you will be able to meet people who share your same tastes, and enjoy the wonderful noise of good engines. <br> We will meet in the Plaza de la Independencia (downtown neighborhood).</p>
+                <h3>Concerts</h3>
+                <p>Don't miss the opportunity to go out and have fun, get to know Uruguay, and enjoy some concerts along the way. Thanks to the new agenda of the Administration you will be able to know what activities you can enjoy every day. <a href="https://montevideo.gub.uy/ciudad-y-cultura/agenda-cultural">Read more...</a></p>
+                <h3>Carnival</h3>
+                <p>Carnival arrived in Montevideo. You can't lose this.
+                    This 20 and 21 we will celebrate in a big way, with bands of musicians and more...</p>
+            </section>
+
+
+            <section class="news">
+                <h2> News</h2>
+                <p>Dominos Pizza has arrived in Uruguay.
+                    The successful franchise opened the doors of its first location in Montevideo successfully. <a href="https://www.elobservador.com.uy/nota/como-es-el-primer-local-de-domino-s-pizza-de-uruguay-y-cuanto-salen-sus-pizzas--2022111717467">Read more...</a></p>
+
+            </section>
+
+            <div>
+                <section class="spotlights">
+                    <h2>Spotlights</h2>
+                    
+                </section>
+            </div>
+    </div>
+    </main>
+    <footer>
+       <div class="logo-footer"> <img src="../chamber/iamges/chamber-logo-removebg-preview.png" alt="Chamber Logo"></div> 
+
+       <div class="grid-footer">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>pablonsantos1107@gmail.com</p>
+                <p>+999-999-999</p>
+                <p>📍 Location Map</p>
+            </div>
+            <div class="social-icons">
+
+                <a href="https://www.facebook.com/"><img src="iamges//facebook_icon-icons.com_66092.png" alt="facebook icon"></a>
+                <a href="https://www.linkedin.com/in/pablo-santos-511101167/"><img src="iamges/linkedin_icon-icons.com_65929.png" alt="linkedin icon"></a>
+                <a href="https://www.instagram.com/"><img src="iamges/instagram_logo_icon_186894.png" alt="instagram icon"></a>
+
+            </div>
+        </div>
+
+        <div class="basefooter">
+            &copy; <span id="year"></span> Montevideo Chamber | Pablo Santos |
+            WDD 230 Project | <span id="modified"></span>
+
+        </div>
+    </footer>
+
+    <script src="./scripts/scripts.js"></script>
+    <script src="./scripts/weather-script.js"></script>
+</body>
+</html>
